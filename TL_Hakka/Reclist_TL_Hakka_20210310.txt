@@ -1,0 +1,248 @@
+/*UTF-8*/
+/*bb = ㄅ濁; ff = v(客) = ㄈ濁; nn = ng(客) = ㄋ濁*/
+/*rr = ㄖ平音; r = ㄖ捲舌(平時口音)*/
+/*bbo = bb(ㄨ)ㄛ; bbo0 = bbㄛ*/
+/*am = ㄢㄇ*/
+/*e = ㄜ; e0 = ㄝ*/
+/*en = ㄣ; en0 = ㄝㄣ*/
+/*em = ㄣㄇ; em0 = ㄝㄣㄇ*/
+/*iu = ㄧㄡ; iu0 = ㄧㄨ; io = ㄧㄛ*/
+/*im = ㄧ(ㄣ)ㄇ*/
+/*on = ㄛㄣ; om = ㄛㄣㄇ*/
+/*v = ㄩ (中文CVVC記號)*/
+/*ui = ㄨㄟ; ui0 = ㄨㄧ*/
+/*un = ㄨ(ㄜ)ㄣ; un0 = ㄨ(ㄨ)ㄣ;*/
+/*um = ㄨ(ㄜ)ㄣㄇ; um0 = ㄨ(ㄨ)ㄣㄇ (中文口音擴充)*/
+/*ung = ㄨ(ㄜ)ㄥ (中文口音擴充)*/
+/*beng = ㄅㄥ; beng0 = ㄅ(ㄛ)ㄥ*/
+
+/*bb、ff、nn客語濁音*/
+_a_bba_ffa_nna_e0_bbe0_ffe0_nne0
+_e_bbe_ffe_nne_i_bbi_ffi_nni
+_u_bbu_ffu_nnu_v_bbv_ffv_nnv
+_wo_bbo_ffo_nnuo_o_bbo0_ffo0_nno0
+_ai_bbai_ffai_nnai_ao_bbao_ffao_nnao
+_ia_bbia_ffia_nnia_ou_bbou_ffou_nnou
+_iu_bbiu_ffiu_nniu_iu0_bbiu0_ffiu0_nniu0
+_ui_bbui_ffui_nnui_ui0_bbui0_ffui0_nnui0
+_ua_bbua_ffua_nnua_er_bber_ffer_nner
+_ei_bbei_ffei_nnei_oi_bboi_ffoi_nnoi
+_eu_bbeu_ffeu_nneu_ie_bbie_ffie_nnie
+_an_bban_ffan_nnan
+_am_bbam_ffam_nnam
+_ang_bbang_ffang_nnang
+_en_bben_ffen_nnen
+_em_bbem_ffem_nnem
+_eng_bbeng_ffeng_nneng
+_en0_bben0_ffen0_nnen0
+_em0_bbem0_ffem0_nnem0
+_in_bbin_ffin_nnin
+_im_bbim_ffim_nnim
+_ing_bbing_ffing_nning
+_on_bbon_ffon_nnon
+_om_bbom_ffom_nnom
+_ong_bbong_ffong_nnong
+_un_bbun_ffun_nnun
+_um_bbum_ffum_nnum
+_un0_bbun0_ffun0_nnun0
+_um0_bbum0_ffum0_nnum0
+_ung_bbung_ffung_nnung
+
+/*rr = ㄖ捲舌; r = ㄖ平*/
+_rrir_rrir_v_rrir
+_rrir_yi_rrir_rryi
+_rra_rre_rre0_rru_rruo_rro0
+_rrai_rran_rram_rrang_rrang
+_rren_rrem_rreng_rreng
+_rren0_rrem0_rrem0
+_rrin_rrim_rring_rring
+_rron_rrom_rrong_rrong
+_rrun_rrum_rrun0_rrum0_rrung_rrung
+_rrao_rrou_rrui_rrui0_rruan
+_ram_rem_ren0_rem0
+_rin_rim_ron_rom_run0_rum0
+_rum_rum_rung_rung
+_rroi_rroi
+
+/*入聲*/
+_a_ba_da_ga_e0_be0_de0_ge0
+_i_bi_di_gi_o_bo0_do0_go0
+_u_bu_du_gu_e_be_de_ge
+_siib_R_siid_R_siig_R
+
+/*擴張整音*/
+_ai_R_ao_R_ia_R_ie_R
+_iu_R_iu0_R_ou_R
+_ei_R_eu_R_ua_R_uo_R
+_ui_R_ui0_R_oi_R
+_an_R_am_R_ang_R_a_R
+_on_R_om_R_ong_R_o_R
+_en_R_em_R_eng_R_e_R
+_en0_R_em0_R_eng0_R_e0_R
+_un_R_um_R_ung_R_u_R
+_in_R_im_R_ing_R_i_R
+_yun_R_yum_R_yu_R
+_un0_R_um0_R
+_yai_R_uai_R_er_R
+_ian_R_iam_R_iang_R
+_iao_R_io_R
+_ion_R_iom_R_iong_R
+_iun0_R_ium0_R
+
+/*單聲母*/
+_bi_pi_mi_fi_di_ti_ni_li
+_gi_ki_hi_zhyi_chyi_shyi
+_zyi_cyi_syi_ryi
+_be_pe_me_fe_de_te_ne_le
+_ge_ke_he_zhe_che_she
+_ze_ce_se_re
+_be0_pe0_me0_fe0_de0_te0_ne0_le0
+_ge0_ke0_he0_zhe0_che0_she0
+_ze0_ce0_se0_re0
+_bo0_po0_mo0_fo0_do0_to0_no0_lo0
+_go0_ko0_ho0_zho0_cho0_sho0
+_zo0_co0_so0_ro0
+_siin_R_siim_R_siing_R
+_hn_R_hm_R_hng_R
+_n_R_m_R_nn_R
+_ong_beng0_peng0_meng0_feng0
+
+/*複韻母-複韻母VC*/
+_am_i_am_u_am_e0_am_o
+_am_e_am_v_am_ai_am_am
+_o_am_er_am_a_am_ao_am
+
+_en0_i_en0_u_en0_e0_en0_o
+_en0_e_en0_v_en0_ai_en0_en0
+_o_en0_er_en0_a_en0_ao_en0
+
+_em_i_em_u_em_e0_em_o
+_em_e_em_v_em_ai_em_em
+_o_em_er_em_a_em_ao_em
+
+_em0_i_em0_u_em0_e0_em0_o
+_em0_e_em0_v_em0_ai_em0_em0
+_o_em0_er_em0_a_em0_ao_em0
+
+_im_i_im_u_im_e0_im_o
+_im_e_im_v_im_ai_im_im
+_o_im_er_im_a_im_ao_im
+
+_on_i_on_u_on_e0_on_o
+_on_e_on_v_on_ai_on_on
+_o_on_er_on_a_on_ao_on
+
+_om_i_om_u_om_e0_om_o
+_om_e_om_v_om_ai_om_om
+_o_om_er_om_a_om_ao_om
+
+_ui0_i_ui0_u_ui0_e0_ui0_o
+_ui0_e_ui0_v_ui0_ai_ui0_ui0
+_o_ui0_er_ui0_a_ui0_ao_ui0
+
+_un0_i_un0_u_un0_e0_un0_o
+_un0_e_un0_v_un0_ai_un0_un0
+_o_un0_er_un0_a_un0_ao_un0
+
+_um_i_um_u_um_e0_um_o
+_um_e_um_v_um_ai_um_um
+_o_um_er_um_a_um_ao_um
+
+_um0_i_um0_u_um0_e0_um0_o
+_um0_e_um0_v_um0_ai_um0_um0
+_o_um0_er_um0_a_um0_ao_um0
+
+_ung_i_ung_u_ung_e0_ung_o
+_ung_e_ung_v_ung_ai_ung_ung
+_o_ung_er_ung_a_ung_ao_ung
+
+/*複韻母-聲母VC*/
+/*am = ㄢㄇ*/
+_am_bam_pam_mam_fam_dam_tam_nam
+_am_lam_gam_kam_ham_zham_cham_sham
+_am_ji_am_qi_am_xi
+_am_zam_cam_sam_ram
+
+/*en0 = ㄝㄣ (中文口音擴充)*/
+_en0_ben0_pen0_men0_fen0_den0_ten0_nen0
+_en0_len0_gen0_ken0_hen0_zhen0_chen0_shen0
+_en0_ji_en0_qi_en0_xi
+_en0_zen0_cen0_sen0_ren0
+
+/*em = ㄣㄇ*/
+_em_bem_pem_mem_fem_dem_tem_nem
+_em_lem_gem_kem_hem_zhem_chem_shem
+_em_ji_em_qi_em_xi
+_em_zem_cem_sem_rem
+
+/*em0 = ㄝㄇ*/
+_em0_bem0_pem0_mem0_fem0_dem0_tem0_nem0
+_em0_lem0_gem0_kem0_hem0_zhem0_chem0_shem0
+_em0_ji_em0_qi_em0_xi
+_em0_zem0_cem0_sem0_rem0
+
+/*ia = ㄧㄚ*/
+_ia_bia_pia_mia_fia_dia_tia_nia
+_ia_lia_gia_kia_hia_zhia_chia_shia
+_ia_zia_cia_sia_ria
+
+/*iu = ㄧㄡ; iu0 = ㄧㄨ*/
+_iu0_biu0_piu0_miu0_fiu0_diu0_tiu0_niu0
+_iu0_liu0_giu0_kiu0_hiu0_zhiu0_chiu0_shiu0
+_iu0_jiu0_qiu0_xiu0
+_iu0_ziu0_ciu0_siu0_riu0
+
+/*im = ㄧㄣㄇ*/
+_im_bim_pim_mim_fim_dim_tim_nim
+_im_lim_gim_kim_him_zhim_chim_shim
+_im_ji_im_qi_im_xi
+_im_zim_cim_sim_rim
+
+/*on = ㄛㄣ*/
+_on_bon_pon_mon_fon_don_ton_non
+_on_lon_gon_kon_hon_zhon_chon_shon
+_on_ji_on_qi_on_xi
+_on_zon_con_son_ron
+
+/*om = ㄛㄣㄇ*/
+_om_bom_pom_mom_fom_dom_tom_nom
+_om_lom_gom_kom_hom_zhom_chom_shom
+_om_ji_om_qi_om_xi
+_om_zom_com_som_rom
+
+/*ui = ㄨㄟ; ui0 = ㄨㄧ (中文口音擴充)*/
+_ui0_bui0_pui0_mui0_fui0_dui0_tui0_nui0
+_ui0_lui0_gui0_kui0_hui0_zhui0_chui0_shui0
+_ui0_ji_ui0_qi_ui0_xi
+_ui0_zui0_cui0_sui0_rui0
+
+/*un = ㄨ(ㄜ)ㄣ; un0 = ㄨ(ㄨ)ㄣ (中文口音擴充)*/
+_un0_bun0_pun0_mun0_fun0_dun0_tun0_nun0
+_un0_lun0_gun0_kun0_hun0_zhun0_chun0_shun0
+_un0_ji_un0_qi_un0_xi
+_un0_zun0_cun0_sun0_run0
+
+/*um = ㄨ(ㄜ)ㄣㄇ*/
+_um_bum_pum_mum_fum_dum_tum_num
+_um_lum_gum_kum_hum_zhum_chum_shum
+_um_ji_um_qi_um_xi
+_um_zum_cum_sum_rum
+
+/*um0 = ㄨ(ㄨ)ㄣㄇ (中文口音擴充)*/
+_um0_bum0_pum0_mum0_fum0_dum0_tum0_num0
+_um0_lum0_gum0_kum0_hum0_zhum0_chum0_shum0
+_um0_ji_um0_qi_um0_xi
+_um0_zum0_cum0_sum0_rum0
+
+/*ung = ㄨ(ㄜ)ㄥ (中文口音擴充)*/
+_ung_bung_pung_mung_fung_dung_tung_nung
+_ung_lung_gung_kung_hung_zhung_chung_shung
+_ung_ji_ung_qi_ung_xi
+_ung_zung_cung_sung_rung
+
+/*oi = ㄛㄧ*/
+_oi_boi_poi_moi_foi_doi_toi_noi
+_oi_loi_goi_koi_hoi
+_oi_zhoi_choi_shoi_roi
+_oi_ji_oi_qi_oi_xi
+_oi_zoi_coi_soi_roi
