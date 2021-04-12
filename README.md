@@ -1,9 +1,9 @@
 # UTAU TL式客語擴充方案
 
 ## 大綱
-* [介紹](##介紹)
-* [中文主體](##中文主體)
-* [客語擴充](##客語擴充)
+* [介紹](#介紹)
+* [中文主體](#中文主體)
+* [客語擴充](#客語擴充)
 
 ## 介紹
 * 歌声合成ツールUTAU，是由飴屋／菖蒲氏開發的免費歌聲合成軟體。特色在於可由使用者自行錄製聲音庫後讓UTAU發出該聲音。完整的聲音庫便能唱出所謂虛擬歌手的歌聲。
@@ -89,7 +89,7 @@
         <td>ㄧㄡ</td><td>ㄧㄢ</td><td>ㄧㄣ</td><td>ㄧㄤ</td>
     <tr>
         <td>ya</td><td>ye</td><td>yai</td><td>yao</td>
-        <td>yiu</td><td>yan</td><td>yin</td><td>yang</td>
+        <td>you</td><td>yan</td><td>yin</td><td>yang</td>
     <tr>
         <td>ㄧㄥ</td><td></td><td></td><td></td>
         <td></td><td></td><td></td><td></td>
@@ -114,10 +114,11 @@
 
 * **註記**
 <br>※ ㄖ的大陸口音會有點像英文的Z的發音(平音)，在此以台灣口音(捲舌音)錄製即可。
-<br>※ ㄧㄡ雖然拼音是記yiu(ㄧㄩ)，但發音是yi(o)u。
+<br>※ (聲母)ㄧㄡ雖然拼音是記-iu，但發音是-i(o)u。
 <br>※ ㄨㄥ需以大陸口音的ㄨ(ㄜ)ㄥ錄製，台灣的口音是ㄨ(ㄛ)ㄥ。
 <br>※ ㄅㄥ需以ㄅ(ㄜ)ㄥ錄製，台灣的口音是ㄅ(ㄛ)ㄥ。
 <br>※ (聲母)ㄨㄟ是記成(-)ui錄製，但錄音時發uei即可。
+<br>※ 單獨寫ㄓㄔㄕㄖㄗㄘㄙ的拼音時，會記成zhi, chi, shi, ri, zi, ci, si。
 
 * **拆音方式**
 <br>UTAU CVVC需要透過拆音方式達成歌聲上較自然的銜接。
@@ -126,7 +127,7 @@
     * 詳細的UTAU CVVC教學可至哈魯魯的教學網站觀看。
 
 ## 客語擴充
-考量中文口音的主體並檢視台灣客家語拼音方案後，提出了客語的TL式擴充方案。而在UTAU中欲使用的音素如下：
+考量中文口音的主體並檢視台灣客家語拼音方案後，提出了客語的TL式擴充方案。而在UTAU中欲使用的客語音素如下：
 <table>
     <tr>
         <td colspan="8">濁聲母</td>
@@ -151,13 +152,13 @@
     <tr>
         <td colspan="2">ui0</td><td colspan="2">un0</td><td colspan="2">um</td><td colspan="2">um0</td>
     <tr>
-        <td colspan="2">ㄛㄧ</td><td colspan="2">ㄨ(ㄜ)ㄥ</td><td colspan="2"></td><td colspan="2"></td>
+        <td colspan="2">ㄛㄧ</td><td colspan="2">ㄧㄛ</td><td colspan="2">ㄨ(ㄜ)ㄥ</td><td colspan="2"></td>
     <tr>
-        <td colspan="2">oi</td><td colspan="2">ung</td><td colspan="2"></td><td colspan="2"></td>
+        <td colspan="2">oi</td><td colspan="2">io</td><td colspan="2">ung</td><td colspan="2"></td>
     <tr>
         <td colspan="8"></td>
     <tr>
-        <td colspan="8">唇塞音</td>
+        <td colspan="8">鼻音</td>
     <tr>
         <td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2"></td>
     <tr>
@@ -207,15 +208,37 @@
 * **UTAU中的客語擴充使用方式**
 <br>大部分都能以CVVC的方式銜接，唯有一部分有額外的拆音方式：
 
-    * 入聲韻尾：
+    * 入聲、平舌音韻尾：
+        * 用於入聲字要銜接下一個歌詞的時候。
         * 例如：煞猛(sad mang)：
         * | sa | (ad R) | mang |
     * 擴張整音：
+        * 用於歌詞遇到連續音的時候，將音符拆開可做更多的調整。
+        * 包含複韻母的整音，例如_iang、_iong等
         * 例如：打拚(da biang)：
-        * | da | (a b) | bia + _ang |
+        * | da | (a b) | bia | {_ang} |
+    * 鼻音：
+        * 鼻音未錄製VC，故銜接上同入聲韻尾的使用方法。
+        * 例如：毋使(m siid)：
+        * | m | m R | si | iid R |
+    * 客語在中文CVVC中的處理：
+        * 製作擴充方案時，為了原本熟悉中文CVVC的使用者，原音設定是以中文CVVC為主，因此有一些是聲音相同而不使用台灣客家語拼音方案。
+        * v：使用ff
+        * ng：使用nn
+        * rh：使用r
+        * -e：使用e0
+        * -i：使用yi
+        * -o：使用o0
+        * -iu：使用iu0；yiu直接使用yiu
+        * -ui：使用ui0
+        * bung、pung、mung、fung：使用beng0、peng0、meng0、feng0
+        * ung：使用ong
+        * zii、cii、sii：使用zi、ci、si
+        * 複韻母韻尾參照上表
 
-[> 回大綱](##大綱)
-<br>[> 下載客語擴充錄音表(含未完成oto模板)](https://github.com/Shangliu-63/TL_HAKKA_UTAU/download/TL_Hakka.zip)
+[> 回大綱](#大綱)
+<br>[> 下載客語擴充錄音表(含未完成oto模板)](https://github.com/Shangliu-63/TL_HAKKA_UTAU/blob/master/download/TL_Hakka.zip)
 <br>> 下載TL示範音源(尚未公布)
+<br>[> 參考資料: 自製TL中客音表整理](https://github.com/Shangliu-63/TL_HAKKA_UTAU/blob/master/reference/TL%E5%AE%A2%E8%AA%9E%E6%95%B4%E9%9F%B3%E8%A1%A8.xlsx)
 
-###### 本文最後編輯：2021/04/10
+###### 本文最後編輯：2021/04/12
