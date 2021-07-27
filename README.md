@@ -217,7 +217,7 @@
         * 因為錄音量的問題，部分字音僅能透過拆音達成，請見諒。
         * 包含複韻母的整音，例如_iang、_iong等
         * 例如：打拚(da biang)：
-        * | da | (a b) | bia | (_ang) |
+        * | da | (a b) | bi | (_iang) |
         * 例如：點紅妝(diam fung zong)：
         * | dia | (_iam) | (am f) | feng0 | (ong z) | zong |
     * 鼻音：
