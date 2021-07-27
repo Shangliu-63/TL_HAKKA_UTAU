@@ -235,8 +235,8 @@
         * -o：使用o0
         * -iu：使用iu0；yiu直接使用yiu
         * -ui：使用ui0
-        * bung、pung、mung、fung：使用beng0、peng0、meng0、feng0
-        * ung：使用ong
+        * bong、pong、mong、fong：使用beng0、peng0、meng0、feng0
+        * ung：使用eng
         * zii、cii、sii：使用zi、ci、si
         * 複韻母韻尾參照上表
 
