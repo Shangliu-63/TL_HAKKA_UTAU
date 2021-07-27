@@ -193,7 +193,7 @@
 
 * **錄音表**
 <br>錄音表為混字錄音表，最多8字。
-<br>檔名為 Reclist_TL_Hakka_20210310.txt。
+<br>檔名為 Reclist_TL_Hakka_20210724.txt。
 
 * **收錄內容：**
     * 濁聲母CV、濁聲母VC
